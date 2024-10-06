@@ -9,8 +9,8 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.todolist</groupId>
-	<artifactId>todo-list</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<artifactId>todo</artifactId>
+	<version>list</version>
 	<packaging>war</packaging>
 	<name>application</name>
 	<description>Create a todo list that uses a REST API  </description>
