@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.todolist</groupId>
 	<artifactId>todo-list</artifactId>
-<!--	<version>1</version>-->
+	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>application</name>
 	<description>Create a todo list that uses a REST API  </description>
@@ -52,11 +52,13 @@
 	</dependencies>
 
 	<build>
+		<finalName>todo-list</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
+					<finalName>todo-list</finalName>
 					<executable>true</executable>
 				</configuration>
 			</plugin>
